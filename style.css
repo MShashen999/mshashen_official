@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Marcellus&family=Markazi+Text:wght@400..700&family=New+Amsterdam&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quicksand:wght@300..700&display=swap');
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+:root{
+
+    --background-color:#20242d;
+    --secondary-color:#01eeff;
+    --background-second:#323846;
+}
+
+body {
+
+    background-color: var(--background-color);
+    font-family: Markazi Text;
+}
+
+#nav-container {
+
+   display: flex;
+   justify-content: space-evenly;
+   padding: 1em;
+   align-items: center;
+}
+
+#nav-ul {
+
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+#nav-ul li {
+
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+
+.nav-a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.nav-a:hover {
+
+    color: var(--secondary-color);
+    transition: 0.2s linear all;
+}
+
+#h1-nav-heading {
+
+    font-size: 2rem;
+    color: white;
+}
+
+.nav-heading-link {
+
+    text-decoration: none;
+}
+
+
+/** Home **/
+
+
+#container-home {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    padding-inline: 8em;
+    padding-top: 3em;
+    padding-bottom: 6em;
+}
+
+#my-img {
+
+    height: 400px;
+    width: 400px;
+}
+
+#hello {
+
+    font-size: 2rem;
+    /* line-height: 10px; */
+}
+
+#name {
+
+    font-size: 3.5rem;
+}
+
+#profession {
+
+    font-size: 2rem;
+    /* line-height: 10px; */
+}
+
+#developer {
+
+    color: var(--secondary-color);
+}
+
+#home-details {
+
+    font-size: 1.4rem;
+}
+
+#social-links {
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+i {
+
+    color: #01eeff;
+    font-size: 1.2rem;
+    border: 3px solid var(--secondary-color);
+    padding: 0.3em;
+    border-radius: 50%;
+}
+
+#download-cv {
+
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    padding-inline: 1em;
+    padding-block: 0.5em;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+
+/** About **/
+
+#about-img {
+
+    height: 400px;
+    width: 400px;
+}
+
+#about {
+
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+#container-about {
+
+    color: white;
+    padding-inline: 8em;
+}
+
+#main-about {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 2em;
+}
+
+#about-heading {
+
+    font-size: 3rem;
+    text-align: center;
+}
+
+#detail-about {
+
+    font-size: 1.6rem;
+}
+
+#contact-us-about-section {
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    background-color: var(--secondary-color);
+    padding-block: 0.3em;
+    padding-inline: 1em;
+    border-radius: 50px;
+}
+
+#about {
+
+    background-color:var(--background-second);
+}
+
+
+
+/** Achievements **/
+
+.certificates-img {
+
+    height: 200px;
+    width: 300px;
+}
+
+#achievements {
+
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+
+#achievements-heading {
+
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1em;
+}
+
+#main-achievements {
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/** portfolio **/
+
+.project-img {
+
+    width: 350px;
+    height: 200px;
+}
+
+#container-portfolio {
+
+    color: white;
+    /* padding-inline: 8em; */
+}
+
+#portfolio {
+
+    padding-top: 2em;
+    padding-bottom: 4em;
+    background-color: var(--background-second);
+}
+
+#portfolio-heading {
+
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#portfolio-main {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.visit-link {
+
+    text-decoration: none;
+    color: white;
+    background-color: var(--secondary-color);
+    font-size: 1.5rem;
+    padding-inline: 2em;
+    padding-block: 0.2em;
+}
+
+.visit-link:hover {
+
+    background-color: white;
+    color: var(--secondary-color);
+    transition: 0.4s all linear;
+}
+
+.project {
+
+    background-color: var(--background-color);
+    padding-block: 50px;
+    padding-inline: 20px;
+    border: 3px solid var(--background-color);
+}
+
+.project:hover {
+
+    border: 3px solid var(--secondary-color);
+}
+
+
+
+/** contact **/
+
+#contact {
+
+    padding-top: 2em;
+    padding-bottom: 4em;
+    color: white;
+}
+
+#contact-heading {
+
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1em;
+}
+
+#contact-main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#email,#message {
+
+    font-family:Markazi Text ;
+    width: 600px;
+    background-color: white;
+    border: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#message {
+
+    height: 200px;
+}
+
+#email {
+
+    height: 60px;
+}
+
+#contact-submit-btn {
+
+    width: 600px;
+    height: 40px;
+    font-family: Markazi Text;
+    font-size: 1.5rem;
+    border: none;
+    background-color: var(--secondary-color);
+    color: black;
+}
+
+#contact-submit-btn:hover {
+
+   background-color: white;
+   color: var(--secondary-color);
+   transition: 0.5s all cubic-bezier(0.165, 0.84, 0.44, 1);
+   cursor: pointer;
+}
+
+.footer {
+
+    color: white;
+    text-align: center;
+}
+
+/* Scrollbar for Webkit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: black; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #01eeff; /* Solid cyan color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px #01eeff, 0 0 20px #01eeff; /* Glow effect */
+}
+
+
+
+
+/* Tablets (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    #nav-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #nav-ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #container-home, #main-about, #portfolio-main, #main-achievements {
+        flex-direction: column;
+        text-align: center;
+        padding-inline: 4em;
+    }
+
+    #my-img, #about-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    #email, #message, #contact-submit-btn {
+        width: 90%;
+    }
+
+    #social-links {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #nav-li1,#nav-li2,#nav-li3,#nav-li4,#nav-li5 {
+
+        padding-inline: 80px;
+        border: 3px solid var(--secondary-color);
+    }
+    
+
+
+
+}
+
+/* Mobile (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    #nav-container {
+        flex-direction: column;
+        padding: 1em 0;
+    }
+
+    #nav-ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #h1-nav-heading {
+        font-size: 1.5rem;
+    }
+
+    #container-home, #main-about, #portfolio-main, #main-achievements {
+        flex-direction: column;
+        text-align: center;
+        padding-inline: 2em;
+    }
+
+    #social-links {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #my-img, #about-img {
+        width: 250px;
+        height: 250px;
+    }
+
+    #hello {
+        font-size: 1.5rem;
+    }
+
+    #name {
+        font-size: 2.5rem;
+    }
+
+    #profession {
+        font-size: 1.8rem;
+    }
+
+    #home-details, #detail-about {
+        font-size: 1.2rem;
+    }
+
+    #contact-heading, #portfolio-heading, #achievements-heading {
+        font-size: 2.5rem;
+    }
+
+    .project-img, .certificates-img {
+        width: 100%;
+        height: auto;
+    }
+
+    #email, #message, #contact-submit-btn {
+        width: 100%;
+    }
+
+    
+}
+
+/* Small Mobile Screens (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    #h1-nav-heading {
+        font-size: 2rem;
+    }
+
+    #container-home, #main-about, #portfolio-main, #main-achievements {
+        padding-inline: 1em;
+    }
+
+    #hello {
+        font-size: 1.2rem;
+    }
+
+    #name {
+        font-size: 2rem;
+    }
+
+    #profession {
+        font-size: 1.5rem;
+    }
+
+    #home-details, #detail-about {
+        font-size: 1rem;
+    }
+
+    #contact-heading, #portfolio-heading, #achievements-heading {
+        font-size: 2rem;
+    }
+
+    .visit-link {
+        font-size: 1.2rem;
+        padding-inline: 1.5em;
+    }
+
+    .project-img, .certificates-img {
+        width: 100%;
+        height: auto;
+    }
+
+    #email, #message, #contact-submit-btn {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    #nav-li1,#nav-li2,#nav-li3,#nav-li4,#nav-li5 {
+
+        padding-inline: 80px;
+        border: 3px solid var(--secondary-color);
+    }
+}
